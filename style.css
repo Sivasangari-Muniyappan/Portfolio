@@ -1,0 +1,99 @@
+*{
+        padding: 0;
+        margin: 0;
+}
+body{
+        font-family: "Young Serif", serif;
+        font-weight: 400;
+        font-style: normal;
+}
+.container{
+        padding: 30px;
+}
+.section-one{
+        background-color: black;
+        padding: 20px;
+        color:white;
+}
+.section-one__contact{
+        background-color: orangered;
+        text-decoration: none;
+        color: white;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        display: inline-block;
+}
+.section-one__name{
+        font-size: 60px;
+}
+.section-one__role{
+        font-size: 30px;
+        margin-top: 10px;
+}
+.section-two,.section-three,.section-four,.section-five{
+        margin-top: 20px;
+}
+.section-two__desc,.section-three__desc,.section-four__desc,.section-five__desc{
+        margin-top: 20px;
+}
+.section-three li,.section-five li,.section-four__desc li{
+        list-style: none;
+}
+.section-three{
+        background-color: #6462fd;
+        display: inline-block;
+        color: black;
+        padding: 20px;
+        height:200px ;
+        border-radius: 10px;
+        vertical-align: top;
+}
+.section-four{
+        background-color: #fe7517;
+        color: black;
+        padding: 20px;
+        display: inline-block;
+        border-radius: 10px;
+        height: 200px;
+
+}
+.section-five{
+        background-color: black;
+        color: white;
+        padding: 20px;
+
+}
+.section-five a{
+        text-decoration:none;
+        color:rgb(32, 32, 141);
+}
+.contact-form{
+        margin-top: 20px;
+}
+.contact-form_input,.contact-form_textarea,.contact-form_submit{
+        margin-top: 10px;
+
+}
+.contact-form_input{
+        padding: 20px;
+        border: none;
+        border-bottom: solid black 1px;
+
+}
+.contact-form_textarea{
+        padding: 20px;
+        border: none;
+        border: solid black 1px;
+}
+.contact-form_submit{
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background-color: orangered;
+        color: white;
+        border: none;
+        
+}
